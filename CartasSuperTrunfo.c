@@ -32,7 +32,7 @@ int main() {
     scanf("%d", &populacao1);
     printf("Area (km2): ");
     scanf("%f", &area1);
-    printf("PIB (em bilhoes de reais): ");
+    printf("PIB: ");
     scanf("%f", &pib1);
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontosTuristicos1);
@@ -47,7 +47,7 @@ int main() {
     scanf("%d", &populacao2);
     printf("Area (km2): ");
     scanf("%f", &area2);
-    printf("PIB (em bilhoes de reais): ");
+    printf("PIB: ");
     scanf("%f", &pib2);
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontosTuristicos2);
@@ -78,3 +78,5 @@ int main() {
     printf("PIB per Capita: %.2f\n", pibPerCapita2);
 
     return 0;
+
+}
